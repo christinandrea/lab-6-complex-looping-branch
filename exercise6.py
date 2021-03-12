@@ -65,7 +65,7 @@ while inp != "End" or inp!="end":
                 xh += 1 
                 print("Total order(s) of Hot Coffee : ",xh)
         total1=icc(xi)+hotcof(xh)
-        print("Total of Coffee : ",total1)
+        print("Total of Coffee : Rp",total1)
     elif inp == "Tea" or inp=="tea":
         inp_sum = int(input("How many tea(s) do you want to buy? : "))
 
@@ -77,7 +77,7 @@ while inp != "End" or inp!="end":
                 print("Total order(s) of Iced Tea : ",ti)
             else : 
                 th += 1 
-                print("Total order(s) of Hot Tea : ",th)
+                print("Total order(s) of Hot Tea : Rp",th)
         total2=iced_tea(ti)+hot_tea(th)
         print("Total of Tea : ",total2)
     elif inp == "Milkshake" or inp=="milkshake":
@@ -87,8 +87,8 @@ while inp != "End" or inp!="end":
             tm +=1
             print("Total order(s) of Milkshake : ",tm)
         total3=ms(tm)
-        print("Total of Milkshake : ", total3)
+        print("Total of Milkshake : Rp", total3)
     else : 
         print("Total Order : ", xi+xh+ti+th+tm)
-        print("Payment :", total1+total2+total3)
+        print("Payment : Rp", total1+total2+total3)
         break
