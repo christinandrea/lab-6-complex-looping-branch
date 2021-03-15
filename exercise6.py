@@ -6,7 +6,7 @@
 # Harga milkshake : Rp25.000
 # Tentukan total pembelian 2 Iced Coffee, 1 Iced Tea, dan 1 Milkshake
 
-#Input = jenis minuman, jumlah, iced/coffee (kopi/teh)
+#Input = jenis minuman, jumlah, iced/hot (kopi/teh)
 #Proses = menghitung total pesanan sesuai dengan harganya dan jumlahnya
 #Output = total pesanan, total pembayaran
 
